@@ -1,0 +1,71 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body{
+  background:
+}
+ .frmpst{padding-top: 50px;}
+.navicon{
+  width: 50px;
+}
+  .bnvPanel
+  {
+    padding-top: 50px;
+    background-color: #e04f5f;
+    opacity: 50%;
+    color: black;
+    text-align:center;}
+
+   .rgtPanel{
+  padding-top: 50px;
+  background-color: #e04f5f;
+  opacity: 50%;
+  color: black;
+  text-align:center;
+  }
+   .BotonIniciar{
+     color: #ffff
+     #df2c2c
+
+   }
+
+   .usrImg{
+   width: 150px;
+   }
+
+   .UsrData{
+     padding-top: 20px;
+   }
+
+   .usrPet{
+     padding-top: 20px
+   }
+   .rstrUsrImg{
+     padding-top: 20px;
+     width: 150px;
+   }
+
+   .tittle{
+     padding-top: 50px;
+   }
+   .icon{
+     width: 250px;
+   }
+
+.options{
+  color: white;
+
+  }

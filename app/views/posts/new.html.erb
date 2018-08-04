@@ -1,0 +1,17 @@
+<div class="alert alert-dismissible alert-primary">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>¡Bienvenido!</strong> Esta es la seccion donde puedes agregar una publicacion y que las personas la puedan encontrar.
+</div>
+
+<div class="frmpst container-fluid">
+  <div class="container formpost">
+    <center>
+
+      <h2>Escribe lo que necesites, ¡La gente te quiere ayudar!</h2><br>
+      <%= render "posts/form"%>
+      <%= link_to 'Ver posts', posts_path %>
+
+    </center>
+  </div>
+
+</div>

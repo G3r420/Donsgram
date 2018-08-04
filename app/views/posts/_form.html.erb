@@ -1,0 +1,34 @@
+
+
+<!-- <form class="new_post" id="new_post" action="/posts" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+<div class='field'>
+<label for="post_tittle">Titulo:</label>
+<br>
+
+<textarea name="post[tittle]" id="post_tittle"></textarea>
+</div>
+<div class='field'>
+<label for="post_body">Mensaje </label>
+<br>
+<textarea name="post[body]" id="post_body"></textarea>
+</div>
+<div class='actions'>
+<input type="submit" name="commit" value="Publicar" data-disable-with="Save" />
+</div>
+</form> -->
+
+					<%= form_for :articulo do |f| %>
+					<p>
+						<%= f.label :titular, class:"form-control" %><br>
+						<%= f.text_field :titular, class:"form-control", :placeholder => "Dale un título a tu publicación, escribe lo que estas buscando. " %>
+					</p>
+
+					<p>
+						<%= f.label :contenido, class:"form-control" %><br>
+						<%= f.text_area :contenido, class:"form-control",  :placeholder => "Añade una descripcion, datos que se deben de conocer, contacto, e informacion" %>
+					</p>
+
+					<p>
+						<%= f.submit 'Publicar' %>
+					</p>
+					<% end %>

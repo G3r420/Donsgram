@@ -1,0 +1,21 @@
+.py-5.bg-dark.text-white
+  .container
+    .row
+      .col-md-9
+        %p.lead Registrate para recibir nuevas noticias
+        %form.form-inline
+          .form-group
+            %input.form-control{:placeholder => "Tu correo electrónico", :type => "email"}/
+          %button.btn.btn-primary.ml-3{:type => "submit"} Suscríbete
+      .col-4.col-md-1.align-self-center
+        %a{:href => "https://www.facebook.com", :target => "_blank"}
+          %i.fa.fa-fw.fa-facebook.fa-3x.text-white
+      .col-4.col-md-1.align-self-center
+        %a{:href => "https://twitter.com", :target => "_blank"}
+          %i.fa.fa-fw.fa-twitter.fa-3x.text-white
+      .col-4.col-md-1.align-self-center
+        %a{:href => "https://www.instagram.com", :target => "_blank"}
+          %i.fa.fa-fw.fa-instagram.text-white.fa-3x
+    .row
+      .col-md-12.mt-3.text-center
+        %p © Copyright 2018 DonsGram - All rights reserved.

@@ -10119,3 +10119,509 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
 
 
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-08-03 22:37:33 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h+FPULEtSO7r/Gy0/xU6iK3ymhHyJRRoaohW+4yn6BsfkIjIVK/HJYVWmJGnOot7/uE6EKp+EKY1cMYiHPI2oQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"ENTRAR"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h+FPULEtSO7r/Gy0/xU6iK3ymhHyJRRoaohW+4yn6BsfkIjIVK/HJYVWmJGnOot7/uE6EKp+EKY1cMYiHPI2oQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"ENTRAR"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.1ms)
+  Rendered partials/_nav.html.erb (0.8ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-08-03 22:37:35 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uKV5sfGrWGgbmV+vJ41soysMrSYvqTI9Ss7MfO9vVDgUdD1rjLOYHlpovZiIDDVK+d/s/cM5cgCxB11ThylYtg==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"ENTRAR"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uKV5sfGrWGgbmV+vJ41soysMrSYvqTI9Ss7MfO9vVDgUdD1rjLOYHlpovZiIDDVK+d/s/cM5cgCxB11ThylYtg==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"ENTRAR"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.4ms)
+  Rendered partials/_nav.html.erb (0.8ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-08-03 22:37:36 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jqcYtlRhQZkmjoWZG1ekFuFOXb/jtx+v11G4zWhjE4oidlxsKXmB72d/Z6601v3/M50cZA8nX5IsmCniACUfBA==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"ENTRAR"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jqcYtlRhQZkmjoWZG1ekFuFOXb/jtx+v11G4zWhjE4oidlxsKXmB72d/Z6601v3/M50cZA8nX5IsmCniACUfBA==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"ENTRAR"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.9ms)
+  Rendered partials/_nav.html.erb (0.7ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-08-03 22:38:28 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (9.2ms)
+  Rendered partials/_nav.html.erb (1.4ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-08-03 22:38:46 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (6.5ms)
+  Rendered partials/_nav.html.erb (1.2ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 11:55:45 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (470.8ms)
+  Rendered partials/_nav.html.erb (0.7ms)
+Completed 200 OK in 607ms (Views: 583.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 11:55:54 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.7ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-08-05 11:56:00 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (136.2ms)
+  Rendered partials/_nav.html.erb (0.8ms)
+Completed 200 OK in 222ms (Views: 194.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-08-05 11:56:23 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (5.5ms)
+  Rendered partials/_nav.html.erb (1.1ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-08-05 12:00:05 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (6.4ms)
+  Rendered partials/_nav.html.erb (2.0ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-08-05 12:00:36 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (7.3ms)
+  Rendered partials/_nav.html.erb (1.8ms)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-08-05 12:01:05 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (6.8ms)
+  Rendered partials/_nav.html.erb (1.9ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 14:10:21 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (492.7ms)
+  Rendered partials/_nav.html.erb (1.1ms)
+Completed 200 OK in 661ms (Views: 656.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 17:20:29 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  background:": expected expression (e.g. 1px, bold), was "}"):
+    3:   <head>
+    4:     <title>Donsgram</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <meta charset="utf-8">
+    9:     <meta name="viewport" content="width=device-width, user-scalable=no,
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3177548849353619934_69932670938300'
+Started GET "/" for 127.0.0.1 at 2018-08-05 17:26:35 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  background:": expected expression (e.g. 1px, bold), was "}"):
+    3:   <head>
+    4:     <title>Donsgram</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <meta charset="utf-8">
+    9:     <meta name="viewport" content="width=device-width, user-scalable=no,
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3177548849353619934_69932905857200'
+Started GET "/" for 127.0.0.1 at 2018-08-05 17:28:21 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /home/g3r420/GitHub/Donsgram/app/assets/config
+  /home/g3r420/GitHub/Donsgram/app/assets/images
+  /home/g3r420/GitHub/Donsgram/app/assets/javascripts
+  /home/g3r420/GitHub/Donsgram/app/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actioncable-5.1.5/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/actionview-5.1.5/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /home/g3r420/GitHub/Donsgram/node_modules):
+    3:   <head>
+    4:     <title>Donsgram</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <meta charset="utf-8">
+    9:     <meta name="viewport" content="width=device-width, user-scalable=no,
+  
+app/assets/stylesheets/application.scss:17
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3177548849353619934_69932845261380'
+Started GET "/" for 127.0.0.1 at 2018-08-05 17:31:24 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (8822.0ms)
+  Rendered partials/_nav.html.erb (0.6ms)
+Completed 200 OK in 8987ms (Views: 8982.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 17:32:29 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.9ms)
+  Rendered partials/_nav.html.erb (0.6ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 17:37:44 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.4ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 17:38:12 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.5ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 17:38:36 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.4ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 17:55:19 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.3ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+  Rendered partials/_footer.html.haml (34.6ms)
+Completed 200 OK in 84ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:01:48 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.9ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+  Rendered partials/_footer.html.haml (7.0ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:13:15 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (7951.3ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+  Rendered partials/_footer.html.haml (9.1ms)
+Completed 200 OK in 8144ms (Views: 8140.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:22:40 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "background:": expected expression (e.g. 1px, bold), was "}"):
+    3:   <head>
+    4:     <title>Donsgram</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <meta charset="utf-8">
+    9:     <meta name="viewport" content="width=device-width, user-scalable=no,
+  
+app/assets/stylesheets/application.scss:23
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2100190704730095726_70053364374820'
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:23:10 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.5ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+  Rendered partials/_footer.html.haml (10.1ms)
+Completed 200 OK in 3784ms (Views: 3783.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:24:19 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.8ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+  Rendered partials/_footer.html.haml (9.2ms)
+Completed 200 OK in 3507ms (Views: 3505.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:25:57 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (2.5ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+  Rendered partials/_footer.html.haml (8.9ms)
+Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:26:56 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (2.1ms)
+  Rendered partials/_nav.html.erb (0.5ms)
+  Rendered partials/_footer.html.haml (5.8ms)
+Completed 200 OK in 68ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:27:41 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.8ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+  Rendered partials/_footer.html.haml (7.1ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:28:22 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.6ms)
+  Rendered partials/_nav.html.erb (0.5ms)
+  Rendered partials/_footer.html.haml (7.8ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:30:57 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.5ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+  Rendered partials/_footer.html.haml (9.9ms)
+Completed 200 OK in 64ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:32:38 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.5ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+  Rendered partials/_footer.html.haml (10.6ms)
+Completed 200 OK in 65ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:33:38 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.5ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+  Rendered partials/_footer.html.haml (6.9ms)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:35:02 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (2.1ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+  Rendered partials/_footer.html.haml (10.8ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:35:39 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.8ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+  Rendered partials/_footer.html.haml (9.4ms)
+Completed 200 OK in 66ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:35:57 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.5ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+  Rendered partials/_footer.html.haml (7.3ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:36:36 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.9ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+  Rendered partials/_footer.html.haml (6.9ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:36:48 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (2.4ms)
+  Rendered partials/_nav.html.erb (0.5ms)
+  Rendered partials/_footer.html.haml (8.1ms)
+Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:39:08 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.7ms)
+  Rendered partials/_nav.html.erb (0.5ms)
+  Rendered partials/_footer.html.haml (8.5ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:39:19 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (1.7ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+  Rendered partials/_footer.html.haml (7.7ms)
+Completed 200 OK in 60ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:39:39 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.erb within layouts/application
+  Rendered main/unregistered.html.erb within layouts/application (2.4ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+  Rendered partials/_footer.html.haml (6.8ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:40:33 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.haml within layouts/application
+  Rendered main/unregistered.html.haml within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: <!-- <div class="container frmpst">
+    2:   <section class="widgets row">
+    3:     <div class="col-xs-12 col-sm-6 col-md-12">
+    4:       <center>
+    5: 
+  
+app/views/main/unregistered.html.haml:2
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:41:04 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.haml within layouts/application
+  Rendered main/unregistered.html.haml within layouts/application (8.1ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+  Rendered partials/_footer.html.haml (6.8ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:46:39 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.haml within layouts/application
+  Rendered main/unregistered.html.haml within layouts/application (9.5ms)
+  Rendered partials/_nav.html.haml (6.3ms)
+  Rendered partials/_footer.html.haml (6.8ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:47:00 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.haml within layouts/application
+  Rendered main/unregistered.html.haml within layouts/application (7.8ms)
+  Rendered partials/_nav.html.haml (5.8ms)
+  Rendered partials/_footer.html.haml (6.8ms)
+Completed 200 OK in 67ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:47:26 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.haml within layouts/application
+  Rendered main/unregistered.html.haml within layouts/application (7.5ms)
+  Rendered partials/_nav.html.haml (5.8ms)
+  Rendered partials/_footer.html.haml (7.0ms)
+Completed 200 OK in 64ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:47:55 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.haml within layouts/application
+  Rendered main/unregistered.html.haml within layouts/application (9.6ms)
+  Rendered partials/_nav.html.haml (6.5ms)
+  Rendered partials/_footer.html.haml (6.9ms)
+Completed 200 OK in 80ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 18:48:25 -0500
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.html.haml within layouts/application
+  Rendered main/unregistered.html.haml within layouts/application (6.3ms)
+  Rendered partials/_nav.html.haml (6.0ms)
+  Rendered partials/_footer.html.haml (6.5ms)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+

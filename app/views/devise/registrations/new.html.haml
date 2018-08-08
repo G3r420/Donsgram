@@ -1,0 +1,39 @@
+.py-5
+  .container
+    = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+      = devise_error_messages!
+      .row
+        .col-md-12
+          %h1.text-center.text-uppercase Registrate
+      .row
+        .col-md-6
+          %form.text-center.m-4
+            .form-group
+              = f.label :"Correo electronico: "
+              = f.email_field :email, autofocus: true, autocomplete: "email", class:"form-control w-100 m-0"
+              = f.label :"Usuario: "
+              = f.text_field :username, autofocus: true, class:"form-control w-100 m-0"
+              = f.label :"Nombre: "
+              = f.text_field :name, autofocus: true, class:"form-control w-100 m-0"
+              = f.label :"Apellido: "
+              = f.text_field :last_name, autofocus: true, class:"form-control w-100 m-0"
+              = f.label :"Edad: "
+              = f.text_field :age, autofocus: true, class:"form-control w-100 m-0"
+        .col-md-6
+          %form.text-center.m-4
+            .form-group
+              = f.label :"Estado: "
+              = f.text_field :state, autofocus: true, class:"form-control w-100 m-0"
+              = f.label :"Pais: "
+              = f.text_field :country, autofocus: true, class:"form-control w-100 m-0"
+              = f.label :"Tipo de sangre: "
+              = f.text_field :blood_type, autofocus: true, class:"form-control w-100 m-0"
+              = f.label :"Contraseña: "
+              - if @minimum_password_length
+                = @minimum_password_length
+                Carácteres mínimos
+              = f.password_field :password, autocomplete: "off", class:"form-control w-100 m-0"
+              = f.label :"Reescribre la contraseña: "
+              = f.password_field :password_confirmation, autocomplete: "off", class:"form-control w-100 m-0"
+              %br/
+              = f.submit "¡Registrate!", class:"center-block"

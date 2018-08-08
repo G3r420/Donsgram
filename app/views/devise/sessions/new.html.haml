@@ -1,0 +1,27 @@
+
+
+.py-5
+  .container
+    .row
+      .col-md-12
+        %h1.text-center.text-uppercase
+          Inicia Sesión
+          %br/
+    .row
+      .col-md-12
+        %form.text-center.m-4
+          = form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+            .form-group
+              = f.label:"Correo electronico: ", class:"m-2"
+              = f.email_field :email, autofocus: true, autocomplete: "email", class:"form-control  w-100 m-0"
+            .form-group
+              = f.label :"Contraseña: ", class:"m-2"
+              = f.password_field :password, autocomplete: "off", class:"form-control"
+              %small.form-text.text-muted.m-2 No compartas tu contraseña con nadie más.
+            - if devise_mapping.rememberable?
+              = f.check_box :remember_me
+              = f.label :"Recuerdame"
+              %br/
+            = f.submit "ENTRAR", class:"btn btn-primary m-2"
+            %br/
+            = render "devise/shared/links"
